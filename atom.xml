@@ -6,7 +6,7 @@
   <link href="https://codeslive.top/atom.xml" rel="self"/>
   
   <link href="https://codeslive.top/"/>
-  <updated>2023-05-26T17:27:52.341Z</updated>
+  <updated>2023-05-26T18:00:10.983Z</updated>
   <id>https://codeslive.top/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>picGo图床配置</title>
+    <link href="https://codeslive.top/2023/05/27/picGo%E5%9B%BE%E5%BA%8A%E9%85%8D%E7%BD%AE/"/>
+    <id>https://codeslive.top/2023/05/27/picGo%E5%9B%BE%E5%BA%8A%E9%85%8D%E7%BD%AE/</id>
+    <published>2023-05-26T17:56:38.606Z</published>
+    <updated>2023-05-26T18:00:10.983Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Github"><a href="#Github" class="headerlink" title="Github"></a>Github</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;&quot;github&quot;:&#123;&quot;branch&quot;:&quot;main&quot;,&quot;customUrl&quot;:&quot;https://cdn.staticaly.com/gh/codeslive/images-pages@main&quot;,&quot;path&quot;:&quot;2022/&quot;,&quot;repo&quot;:&quot;Codeslive/images-pages&quot;,&quot;token&quot;:&quot;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&quot;&#125;&#125;</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;&quot;github&quot;:&#123;&quot;branch&quot;:&quot;main&quot;,&quot;customUrl&quot;:&quot;https://cdn.staticaly.com/gh/mystaticcode/showImg@main&quot;,&quot;path&quot;:&quot;api/showImg/&quot;,&quot;repo&quot;:&quot;mystaticcode/showImg&quot;,&quot;token&quot;:&quot;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&quot;&#125;&#125;</span><br></pre></td></tr></table></figure><h3 id="gitee"><a href="#gitee" class="headerlink" title="gitee"></a>gitee</h3><p><code>c160076c0d56cc595476c02fce75a1de</code></p><h3 id="七牛云"><a href="#七牛云" class="headerlink" title="七牛云"></a>七牛云</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;&quot;qiniu&quot;:&#123;&quot;accessKey&quot;:&quot;PxFTCAmZUbbrM3RpAXOJF84LJh7QGmeBhjE04fCr&quot;,&quot;secretKey&quot;:&quot;z9h6eepVokVKxuOu6aAtaF36ryncODoRv-zPYlSc&quot;,&quot;bucket&quot;:&quot;images-pages&quot;,&quot;url&quot;:&quot;https://images.codeslive.top&quot;,&quot;area&quot;:&quot;z2&quot;,&quot;options&quot;:&quot;?imageMogr2/format/webp&quot;,&quot;path&quot;:&quot;static/&quot;&#125;&#125;</span><br></pre></td></tr></table></figure><h3 id="alist"><a href="#alist" class="headerlink" title="alist"></a>alist</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;&quot;alist&quot;:&#123;&quot;path&quot;:&quot;/夸克网盘/images_bed&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNvZGVzbGl2ZSIsImV4cCI6MTY2ODI1NjU0NiwibmJmIjoxNjY4MDgzNzQ2LCJpYXQiOjE2NjgwODM3NDZ9.a4MPFbkzZRdJXXHBU4Y5TYvadla3Yrpxa8fe8Rj-188&quot;,&quot;url&quot;:&quot;https://alist.codeslive.top&quot;,&quot;version&quot;:&quot;3&quot;&#125;&#125;</span><br></pre></td></tr></table></figure><h3 id="阿里云OSS"><a href="#阿里云OSS" class="headerlink" title="阿里云OSS"></a>阿里云OSS</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;&quot;aliyun&quot;:&#123;&quot;accessKeyId&quot;:&quot;LTAI5tQS62h9RUU41zhWJFdu&quot;,&quot;accessKeySecret&quot;:&quot;P9TtPcTMobD6VClKS7IBKM3Y4AtDQh&quot;,&quot;area&quot;:&quot;oss-cn-guangzhou&quot;,&quot;bucket&quot;:&quot;static-space-pages&quot;,&quot;customUrl&quot;:&quot;https://www.codeslive.top&quot;,&quot;options&quot;:&quot;?x-oss-process=style/webp&quot;,&quot;path&quot;:&quot;images/&quot;&#125;&#125;</span><br></pre></td></tr></table></figure><p><img src="https://cdn.staticaly.com/gh/codeslive/images-pages@main/2022/20221110220815.webp"></p><h3 id="vika图床"><a href="#vika图床" class="headerlink" title="vika图床"></a>vika图床</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&#123;&quot;vika&quot;:&#123;&quot;apiToken&quot;:&quot;usksyG3xU4QWAfRfIEgDwGi&quot;,&quot;attachmentFieldName&quot;:&quot;附件&quot;,&quot;datasheetId&quot;:&quot;dstR0l0xEvnZBy9KsL&quot;,&quot;insertMode&quot;:1&#125;&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure><h3 id="图仓"><a href="#图仓" class="headerlink" title="图仓"></a>图仓</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;&quot;web-uploader&quot;:&#123;&quot;customBody&quot;:&quot;&#123;\&quot;token\&quot;:\&quot;166929663783310162d01ee224e5eb0db166d08e45d76\&quot;&#125;&quot;,&quot;customHeader&quot;:null,&quot;jsonPath&quot;:&quot;data.url&quot;,&quot;paramName&quot;:&quot;file&quot;,&quot;url&quot;:&quot;https://tucang.cc/api/v1/upload&quot;&#125;&#125;</span><br></pre></td></tr></table></figure><p><img src="https://s1.vika.cn/space/2022/11/17/dbaa10994fc249a8a27101a8ee54f553"></p><h3 id="聚合图床"><a href="#聚合图床" class="headerlink" title="聚合图床"></a>聚合图床</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;&quot;superbed&quot;:&#123;&quot;password&quot;:&quot;2002gh0705&quot;,&quot;token&quot;:&quot;&quot;,&quot;username&quot;:&quot;codeslive&quot;&#125;&#125;</span><br></pre></td></tr></table></figure><h3 id="imgur"><a href="#imgur" class="headerlink" title="imgur"></a>imgur</h3><p>Client ID:4a6f7973a21c2f0</p><p>Client secret:d446fdc407366c3224c8409c336406faeabecce2</p><h3 id="备用加速链接"><a href="#备用加速链接" class="headerlink" title="备用加速链接"></a>备用加速链接</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://jsd.cdn.zzko.cn/</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">picGo图床配置</summary>
+    
+    
+    
+    <category term="工具" scheme="https://codeslive.top/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>ChatGPT插件</title>
