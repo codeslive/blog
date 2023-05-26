@@ -6,7 +6,7 @@
   <link href="https://codeslive.top/atom.xml" rel="self"/>
   
   <link href="https://codeslive.top/"/>
-  <updated>2023-05-26T17:27:52.341Z</updated>
+  <updated>2023-05-26T18:06:13.535Z</updated>
   <id>https://codeslive.top/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>部署蚂蚁笔记</title>
+    <link href="https://codeslive.top/2023/05/27/%E9%83%A8%E7%BD%B2%E8%9A%82%E8%9A%81%E7%AC%94%E8%AE%B0/"/>
+    <id>https://codeslive.top/2023/05/27/%E9%83%A8%E7%BD%B2%E8%9A%82%E8%9A%81%E7%AC%94%E8%AE%B0/</id>
+    <published>2023-05-26T18:04:48.758Z</published>
+    <updated>2023-05-26T18:06:13.535Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="下载包"><a href="#下载包" class="headerlink" title="下载包"></a>下载包</h3><h3 id="安装mgdb"><a href="#安装mgdb" class="headerlink" title="安装mgdb"></a>安装mgdb</h3><h3 id="解压"><a href="#解压" class="headerlink" title="解压"></a>解压</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar -zxvf + 包名</span><br></pre></td></tr></table></figure><h3 id="导入数据"><a href="#导入数据" class="headerlink" title="导入数据"></a>导入数据</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">cd /www/project/leanote/mongodb_backup/</span><br><span class="line"></span><br><span class="line">ll</span><br><span class="line"></span><br><span class="line">leanote_install_data</span><br><span class="line"></span><br><span class="line">mongorestore -h loaclhost -d leanote --dir leanote_install_data/</span><br></pre></td></tr></table></figure><h3 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">cd /www/project/leanote/bin/</span><br><span class="line"></span><br><span class="line">ll</span><br><span class="line"></span><br><span class="line">nohup bash run.sh &amp;</span><br></pre></td></tr></table></figure><h3 id="数据备份"><a href="#数据备份" class="headerlink" title="数据备份"></a>数据备份</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">mongodump -h localhost -d leanote -o &lt;dir&gt;</span><br><span class="line"></span><br><span class="line">mongodump -h localhost -d leanote -o /www/project/leanote_backup</span><br><span class="line"></span><br></pre></td></tr></table></figure><h3 id="效果演示"><a href="#效果演示" class="headerlink" title="效果演示"></a>效果演示</h3><h6 id="网页版"><a href="#网页版" class="headerlink" title="网页版"></a>网页版</h6><p><img src="https://cdn.staticaly.com/gh/codeslive/images-pages@main/2022/20221110221137.webp"></p><h6 id="客户端"><a href="#客户端" class="headerlink" title="客户端"></a>客户端</h6><p><img src="https://cdn.staticaly.com/gh/codeslive/images-pages@main/2022/20221110220840.webp"></p><h6 id="移动端"><a href="#移动端" class="headerlink" title="移动端"></a>移动端</h6><p><img src="https://cdn.staticaly.com/gh/codeslive/images-pages@main/2022/QQ%E5%9B%BE%E7%89%8720221110221028.webp"></p>]]></content>
+    
+    
+    <summary type="html">部署蚂蚁笔记</summary>
+    
+    
+    
+    <category term="部署" scheme="https://codeslive.top/categories/%E9%83%A8%E7%BD%B2/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>ChatGPT插件</title>

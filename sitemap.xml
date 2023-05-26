@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://codeslive.top/2023/05/27/%E9%83%A8%E7%BD%B2%E8%9A%82%E8%9A%81%E7%AC%94%E8%AE%B0/</loc>
+    
+    <lastmod>2023-05-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://codeslive.top/2023/05/27/Jetbrains%20%E5%85%B6%E4%BB%96%E4%BA%A7%E5%93%81%E5%AF%B9%E5%BA%94%E6%BF%80%E6%B4%BB%E7%A0%81(2023)/</loc>
     
     <lastmod>2023-05-26</lastmod>
@@ -66,6 +75,13 @@
   
   <url>
     <loc>https://codeslive.top/categories/%E5%89%8D%E7%AB%AF/</loc>
+    <lastmod>2023-05-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://codeslive.top/categories/%E9%83%A8%E7%BD%B2/</loc>
     <lastmod>2023-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
