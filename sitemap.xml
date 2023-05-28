@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://codeslive.top/2023/05/28/OSI-%E4%B8%83%E5%B1%82%E6%A8%A1%E5%9E%8B/</loc>
+    
+    <lastmod>2023-05-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://codeslive.top/2023/05/27/%E9%83%A8%E7%BD%B2%E8%9A%82%E8%9A%81%E7%AC%94%E8%AE%B0/</loc>
     
     <lastmod>2023-05-26</lastmod>
@@ -58,7 +67,7 @@
 
   <url>
     <loc>https://codeslive.top/</loc>
-    <lastmod>2023-05-26</lastmod>
+    <lastmod>2023-05-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -68,21 +77,28 @@
   
   <url>
     <loc>https://codeslive.top/categories/%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2023-05-26</lastmod>
+    <lastmod>2023-05-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://codeslive.top/categories/%E5%89%8D%E7%AB%AF/</loc>
-    <lastmod>2023-05-26</lastmod>
+    <lastmod>2023-05-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://codeslive.top/categories/%E7%BD%91%E7%BB%9C/</loc>
+    <lastmod>2023-05-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://codeslive.top/categories/%E9%83%A8%E7%BD%B2/</loc>
-    <lastmod>2023-05-26</lastmod>
+    <lastmod>2023-05-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

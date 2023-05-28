@@ -6,7 +6,7 @@
   <link href="https://codeslive.top/atom.xml" rel="self"/>
   
   <link href="https://codeslive.top/"/>
-  <updated>2023-05-26T18:06:13.535Z</updated>
+  <updated>2023-05-28T11:22:33.103Z</updated>
   <id>https://codeslive.top/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>OSI-七层模型</title>
+    <link href="https://codeslive.top/2023/05/28/OSI-%E4%B8%83%E5%B1%82%E6%A8%A1%E5%9E%8B/"/>
+    <id>https://codeslive.top/2023/05/28/OSI-%E4%B8%83%E5%B1%82%E6%A8%A1%E5%9E%8B/</id>
+    <published>2023-05-28T11:20:42.489Z</published>
+    <updated>2023-05-28T11:22:33.103Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="OSI-七层模型"><a href="#OSI-七层模型" class="headerlink" title="OSI-七层模型"></a>OSI-七层模型</h1><blockquote><p>七层参考模型</p></blockquote><p><img src="https://static-youdao-note.oss-cn-shenzhen.aliyuncs.com/images/202305281902086.webp?x-oss-process=style/webp" alt=" 七层参考模型"></p><h3 id="一、物理层（主要传输的是比特流）"><a href="#一、物理层（主要传输的是比特流）" class="headerlink" title="一、物理层（主要传输的是比特流）"></a>一、物理层（主要传输的是比特流）</h3><p><img src="https://static-youdao-note.oss-cn-shenzhen.aliyuncs.com/images/202305281905497.webp?x-oss-process=style/webp" alt="物理层"></p><h3 id="二、-数据链路层"><a href="#二、-数据链路层" class="headerlink" title="二、 数据链路层"></a>二、 数据链路层</h3><p><img src="https://static-youdao-note.oss-cn-shenzhen.aliyuncs.com/images/202305281909203.webp?x-oss-process=style/webp" alt="数据链路层"></p><h3 id="三、网络层"><a href="#三、网络层" class="headerlink" title="三、网络层"></a>三、网络层</h3><p><img src="https://static-youdao-note.oss-cn-shenzhen.aliyuncs.com/images/202305281912735.webp?x-oss-process=style/webp" alt="网络层"></p><h3 id="四、传输层"><a href="#四、传输层" class="headerlink" title="四、传输层"></a>四、传输层</h3><p><img src="https://static-youdao-note.oss-cn-shenzhen.aliyuncs.com/images/202305281914960.webp?x-oss-process=style/webp" alt="传输层"></p><h3 id="五、会话层"><a href="#五、会话层" class="headerlink" title="五、会话层"></a>五、会话层</h3><p><img src="https://static-youdao-note.oss-cn-shenzhen.aliyuncs.com/images/202305281916004.webp?x-oss-process=style/webp" alt="会话层"></p><h3 id="六、表示层"><a href="#六、表示层" class="headerlink" title="六、表示层"></a>六、表示层</h3><p><img src="https://static-youdao-note.oss-cn-shenzhen.aliyuncs.com/images/202305281919230.webp?x-oss-process=style/webp" alt="表示层"></p><h3 id="七、应用层"><a href="#七、应用层" class="headerlink" title="七、应用层"></a>七、应用层</h3><p><img src="https://static-youdao-note.oss-cn-shenzhen.aliyuncs.com/images/202305281919933.webp?x-oss-process=style/webp" alt="应用层"></p>]]></content>
+    
+    
+    <summary type="html">OSI-七层模型</summary>
+    
+    
+    
+    <category term="网络" scheme="https://codeslive.top/categories/%E7%BD%91%E7%BB%9C/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>部署蚂蚁笔记</title>
