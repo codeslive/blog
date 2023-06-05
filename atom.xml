@@ -6,7 +6,7 @@
   <link href="https://codeslive.top/atom.xml" rel="self"/>
   
   <link href="https://codeslive.top/"/>
-  <updated>2023-06-05T08:39:42.027Z</updated>
+  <updated>2023-06-05T09:07:32.438Z</updated>
   <id>https://codeslive.top/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>TCP实现http服务</title>
+    <link href="https://codeslive.top/2023/06/05/TCP%E5%AE%9E%E7%8E%B0http%E6%9C%8D%E5%8A%A1/"/>
+    <id>https://codeslive.top/2023/06/05/TCP%E5%AE%9E%E7%8E%B0http%E6%9C%8D%E5%8A%A1/</id>
+    <published>2023-06-05T09:01:56.797Z</published>
+    <updated>2023-06-05T09:07:32.438Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight typescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// Description: TCP 服务端</span></span><br><span class="line"><span class="keyword">import</span> net <span class="keyword">from</span> <span class="string">&#x27;net&#x27;</span>;</span><br><span class="line"><span class="comment">// html 模板</span></span><br><span class="line"><span class="keyword">const</span> <span class="attr">html</span>: <span class="built_in">string</span> = <span class="string">`&lt;h2&gt;xiaokang zs&lt;/h2&gt;`</span>;</span><br><span class="line"><span class="comment">// 响应头</span></span><br><span class="line"><span class="keyword">const</span> headers = [</span><br><span class="line">  <span class="string">&#x27;HTTP/1.1 200 OK&#x27;</span>,</span><br><span class="line">  <span class="string">&#x27;Content-Type: text/html;charset=utf-8&#x27;</span>,</span><br><span class="line">  <span class="string">&#x27;Content-Length: &#x27;</span> + html.<span class="property">length</span>,</span><br><span class="line">  <span class="string">&#x27;Date: &#x27;</span> + <span class="keyword">new</span> <span class="title class_">Date</span>(),</span><br><span class="line">  <span class="string">`\r\n`</span>,</span><br><span class="line">  html</span><br><span class="line">]</span><br><span class="line"><span class="comment">// 创建服务</span></span><br><span class="line"><span class="keyword">const</span> server = net.<span class="title function_">createServer</span>(<span class="function">(<span class="params">socket</span>) =&gt;</span> &#123;</span><br><span class="line">  socket.<span class="title function_">on</span>(<span class="string">&#x27;data&#x27;</span>, <span class="function">(<span class="params">data</span>) =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">if</span> (<span class="regexp">/GET/</span>.<span class="title function_">test</span>(data.<span class="title function_">toString</span>())) &#123;</span><br><span class="line">      socket.<span class="title function_">write</span>(headers.<span class="title function_">join</span>(<span class="string">&#x27;\r\n&#x27;</span>));</span><br><span class="line">      socket.<span class="title function_">end</span>();</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;);</span><br><span class="line">&#125;);</span><br><span class="line"><span class="comment">// 监听端口</span></span><br><span class="line">server.<span class="title function_">listen</span>(<span class="number">3000</span>, <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;server start at 3000&#x27;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">TCP实现http服务</summary>
+    
+    
+    
+    <category term="网络" scheme="https://codeslive.top/categories/%E7%BD%91%E7%BB%9C/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>前端网络状态</title>
