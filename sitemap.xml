@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://codeslive.top/2023/06/05/%E5%85%B3%E4%BA%8E%E5%8A%A8%E6%80%81%E8%B7%AF%E7%94%B1%E5%88%B7%E6%96%B0%E4%B8%A2%E5%A4%B1%E7%9A%84%E9%97%AE%E9%A2%98/</loc>
+    
+    <lastmod>2023-06-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://codeslive.top/2023/06/05/TCP%E5%AE%9E%E7%8E%B0http%E6%9C%8D%E5%8A%A1/</loc>
     
     <lastmod>2023-06-05</lastmod>
@@ -128,6 +137,13 @@
   </url>
   
   <url>
+    <loc>https://codeslive.top/categories/%E7%BD%91%E7%BB%9C/</loc>
+    <lastmod>2023-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://codeslive.top/categories/%E5%89%8D%E7%AB%AF/</loc>
     <lastmod>2023-06-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -135,7 +151,7 @@
   </url>
   
   <url>
-    <loc>https://codeslive.top/categories/%E7%BD%91%E7%BB%9C/</loc>
+    <loc>https://codeslive.top/categories/Vue/</loc>
     <lastmod>2023-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
