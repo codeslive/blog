@@ -6,7 +6,7 @@
   <link href="https://codeslive.top/atom.xml" rel="self"/>
   
   <link href="https://codeslive.top/"/>
-  <updated>2023-06-05T12:19:26.020Z</updated>
+  <updated>2023-06-11T08:04:26.945Z</updated>
   <id>https://codeslive.top/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>XSS跨站脚本攻击</title>
+    <link href="https://codeslive.top/2023/06/11/XSS%E8%B7%A8%E7%AB%99%E8%84%9A%E6%9C%AC%E6%94%BB%E5%87%BB/"/>
+    <id>https://codeslive.top/2023/06/11/XSS%E8%B7%A8%E7%AB%99%E8%84%9A%E6%9C%AC%E6%94%BB%E5%87%BB/</id>
+    <published>2023-06-11T03:10:26.561Z</published>
+    <updated>2023-06-11T08:04:26.945Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="一、反射型XSS"><a href="#一、反射型XSS" class="headerlink" title="一、反射型XSS"></a>一、反射型XSS</h3><p><img src="https://static-youdao-note.oss-cn-shenzhen.aliyuncs.com/images/202306111243905.png?x-oss-process=style/webp" alt="反射型XSS"></p><h3 id="二、存储型XSS"><a href="#二、存储型XSS" class="headerlink" title="二、存储型XSS"></a>二、存储型XSS</h3><p><img src="https://static-youdao-note.oss-cn-shenzhen.aliyuncs.com/images/202306111245283.png?x-oss-process=style/webp" alt="存储型XSS"></p><h3 id="三、dom型XSS"><a href="#三、dom型XSS" class="headerlink" title="三、dom型XSS"></a>三、dom型XSS</h3><p><img src="https://static-youdao-note.oss-cn-shenzhen.aliyuncs.com/images/202306111247761.png?x-oss-process=style/webp" alt="dom型XSS"></p>]]></content>
+    
+    
+    <summary type="html">XSS跨站脚本攻击</summary>
+    
+    
+    
+    <category term="网络" scheme="https://codeslive.top/categories/%E7%BD%91%E7%BB%9C/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>关于动态路由刷新丢失的问题</title>
